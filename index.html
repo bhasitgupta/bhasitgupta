@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhasit Gupta — GitHub Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --accent: #6ee7f7;
+      --accent2: #7c3aed;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --green: #39d353;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Animated background */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(110,231,247,0.07), transparent),
+                  radial-gradient(ellipse 60% 40% at 80% 80%, rgba(124,58,237,0.06), transparent);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Header Banner */
+    .banner {
+      width: 100%;
+      border-radius: 0 0 16px 16px;
+      overflow: hidden;
+      display: block;
+    }
+
+    /* Typing animation */
+    .typing-wrap {
+      text-align: center;
+      margin: 24px 0 16px;
+    }
+    .typing-wrap img { border-radius: 6px; }
+
+    /* Badges row */
+    .badges {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+    .badges img { height: 22px; border-radius: 4px; }
+
+    /* Divider */
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 36px 0;
+    }
+
+    /* Section titles */
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* About card */
+    .code-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px 26px;
+      font-family: 'Fira Code', monospace;
+      font-size: 0.85rem;
+      line-height: 1.9;
+      overflow-x: auto;
+      position: relative;
+    }
+    .code-block::before {
+      content: 'TypeScript';
+      position: absolute;
+      top: 12px;
+      right: 16px;
+      font-size: 0.7rem;
+      color: var(--muted);
+      font-family: 'Inter', sans-serif;
+    }
+    .kw  { color: #ff7b72; }
+    .id  { color: #79c0ff; }
+    .str { color: #a5d6ff; }
+    .val { color: var(--accent); }
+    .arr { color: #ffa657; }
+    .cm  { color: var(--muted); font-style: italic; }
+
+    /* Tech stack */
+    .skills-section { text-align: center; }
+    .skills-group { margin-bottom: 18px; }
+    .skills-group h3 {
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 14px;
+    }
+    .skills-group img { border-radius: 6px; }
+
+    /* Projects table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    th {
+      background: var(--surface);
+      color: var(--muted);
+      font-weight: 600;
+      text-align: left;
+      padding: 12px 16px;
+      border: 1px solid var(--border);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+    td {
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+      line-height: 1.6;
+    }
+    tr:hover td { background: rgba(110,231,247,0.03); transition: background 0.2s; }
+    .project-name {
+      font-weight: 700;
+      color: var(--accent);
+      font-size: 0.95rem;
+      white-space: nowrap;
+    }
+    .stack-pill {
+      display: inline-block;
+      background: rgba(110,231,247,0.1);
+      color: var(--accent);
+      border: 1px solid rgba(110,231,247,0.25);
+      border-radius: 999px;
+      padding: 2px 10px;
+      font-size: 0.73rem;
+      margin: 2px 2px 2px 0;
+      white-space: nowrap;
+    }
+
+    /* Stats grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .stats-grid img, .stats-single img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+    .stats-single { text-align: center; }
+    .stats-single img { max-width: 600px; border-radius: 10px; }
+
+    /* Trophies */
+    .trophies { text-align: center; }
+    .trophies img { max-width: 100%; border-radius: 10px; }
+
+    /* Activity graph */
+    .graph-wrap { border-radius: 12px; overflow: hidden; }
+    .graph-wrap img { width: 100%; display: block; border-radius: 12px; }
+
+    /* Snake */
+    .snake-wrap { text-align: center; }
+    .snake-wrap img { max-width: 100%; border-radius: 8px; }
+
+    /* Social links */
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .social-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+      border: 1px solid transparent;
+    }
+    .social-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.4); }
+    .social-btn svg { width: 18px; height: 18px; flex-shrink: 0; }
+    .btn-linkedin  { background: #0a66c2; color: #fff; }
+    .btn-twitter   { background: #111; color: #fff; border-color: #333; }
+    .btn-portfolio { background: var(--accent); color: #0d1117; }
+    .btn-email     { background: #ea4335; color: #fff; }
+    .btn-discord   { background: #5865f2; color: #fff; }
+
+    /* Footer wave */
+    .footer-wave { width: 100%; display: block; margin-top: 48px; border-radius: 12px 12px 0 0; }
+    .footer-quote {
+      text-align: center;
+      color: var(--muted);
+      font-style: italic;
+      font-size: 0.9rem;
+      margin-top: 24px;
+    }
+    .footer-quote span { color: var(--accent); font-style: normal; font-weight: 600; }
+
+    /* Responsive */
+    @media(max-width: 600px) {
+      .stats-grid { grid-template-columns: 1fr; }
+      .social-btn { padding: 8px 14px; font-size: 0.78rem; }
+    }
+
+    /* Pulse dot */
+    .pulse { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 0 rgba(57,211,83,0.5); animation: pulse 2s infinite; vertical-align: middle; margin-right: 6px; }
+    @keyframes pulse { 0%,100%{box-shadow:0 0 0 0 rgba(57,211,83,0.5)} 50%{box-shadow:0 0 0 8px rgba(57,211,83,0)} }
+
+    /* Fade-in sections */
+    .fade-in { opacity: 0; transform: translateY(20px); animation: fadeUp 0.6s ease forwards; }
+    @keyframes fadeUp { to { opacity: 1; transform: none; } }
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+    .delay-4 { animation-delay: 0.4s; }
+    .delay-5 { animation-delay: 0.5s; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Header Banner -->
+  <img class="banner" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Bhasit%20Gupta&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Product%20Builder%20%7C%20AI%20Enthusiast&descAlignY=58&descSize=16" alt="Header Banner" />
+
+  <!-- Typing SVG -->
+  <div class="typing-wrap fade-in delay-1">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=6EE7F7&center=true&vCenter=true&width=600&lines=Building+products+people+love+%F0%9F%9A%80;Next.js+%7C+TypeScript+%7C+Supabase;Turning+ideas+into+polished+apps;Open+to+collabs+%26+cool+projects+%F0%9F%A4%9D" alt="Typing Animation" />
+  </div>
+
+  <!-- Badges -->
+  <div class="badges fade-in delay-2">
+    <img src="https://komarev.com/ghpvc/?username=BhasitGupta&label=Profile%20Views&color=6EE7F7&style=flat-square" alt="Views" />
+    <img src="https://img.shields.io/github/followers/BhasitGupta?label=Followers&style=flat-square&color=6EE7F7&labelColor=0d1117" alt="Followers" />
+  </div>
+
+  <hr />
+
+  <!-- About Me -->
+  <section class="fade-in delay-2">
+    <h2>🧑‍💻 About Me</h2>
+    <div class="code-block">
+      <span class="kw">const</span> <span class="id">bhasit</span> = {<br/>
+      &nbsp;&nbsp;<span class="id">name</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span class="str">"Bhasit Gupta"</span>,<br/>
+      &nbsp;&nbsp;<span class="id">role</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span class="str">"Full-Stack Developer &amp; Product Builder"</span>,<br/>
+      &nbsp;&nbsp;<span class="id">location</span>&nbsp;&nbsp;&nbsp;&nbsp;: <span class="str">"India 🇮🇳"</span>,<br/>
+      &nbsp;&nbsp;<span class="id">currentWork</span> : [<span class="arr">"DraftDeckAI"</span>, <span class="arr">"Glitchless"</span>, <span class="arr">"Batman Platform"</span>],<br/>
+      &nbsp;&nbsp;<span class="id">stack</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: [<span class="arr">"Next.js"</span>, <span class="arr">"TypeScript"</span>, <span class="arr">"Supabase"</span>, <span class="arr">"TailwindCSS"</span>, <span class="arr">"Vercel"</span>],<br/>
+      &nbsp;&nbsp;<span class="id">interests</span>&nbsp;&nbsp;&nbsp;: [<span class="arr">"AI apps"</span>, <span class="arr">"SaaS products"</span>, <span class="arr">"Developer tools"</span>],<br/>
+      &nbsp;&nbsp;<span class="id">funFact</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <span class="str">"I debug at 2am and ship at 3am 🌙"</span>,<br/>
+      };
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- Tech Stack -->
+  <section class="skills-section fade-in delay-3">
+    <h2>🛠️ Tech Stack</h2>
+    <div class="skills-group">
+      <h3>⚡ Frontend</h3>
+      <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css&theme=dark" alt="Frontend Skills" />
+    </div>
+    <div class="skills-group">
+      <h3>🗄️ Backend &amp; Database</h3>
+      <img src="https://skillicons.dev/icons?i=supabase,postgres,nodejs&theme=dark" alt="Backend Skills" />
+    </div>
+    <div class="skills-group">
+      <h3>🧰 Tools &amp; Platforms</h3>
+      <img src="https://skillicons.dev/icons?i=vercel,git,github,vscode,figma&theme=dark" alt="Tool Skills" />
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- Projects -->
+  <section class="fade-in delay-3">
+    <h2>🚀 Featured Projects</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Stack</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="project-name">DraftDeckAI</span></td>
+          <td>AI-powered document drafting platform with smart templates and real-time collaboration</td>
+          <td>
+            <span class="stack-pill">Next.js</span>
+            <span class="stack-pill">Supabase</span>
+            <span class="stack-pill">TypeScript</span>
+            <span class="stack-pill">AI</span>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="project-name">Glitchless</span></td>
+          <td>Performance analytics tool with real-time monitoring and beautiful dashboards</td>
+          <td>
+            <span class="stack-pill">Next.js</span>
+            <span class="stack-pill">TypeScript</span>
+            <span class="stack-pill">TailwindCSS</span>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="project-name">Batman Platform</span></td>
+          <td>Enterprise SaaS dashboard with advanced authentication and Discord integration</td>
+          <td>
+            <span class="stack-pill">Next.js</span>
+            <span class="stack-pill">Supabase</span>
+            <span class="stack-pill">Vercel</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr />
+
+  <!-- GitHub Stats -->
+  <section class="fade-in delay-4">
+    <h2>📊 GitHub Stats</h2>
+    <div class="stats-grid">
+      <img src="https://github-readme-stats.vercel.app/api?username=BhasitGupta&show_icons=true&count_private=true&theme=tokyonight&bg_color=0d1117&title_color=6EE7F7&icon_color=6EE7F7&text_color=ffffff&border_color=30363d" alt="GitHub Stats" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BhasitGupta&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=6EE7F7&text_color=ffffff&border_color=30363d&langs_count=8" alt="Top Languages" />
+    </div>
+    <div class="stats-single">
+      <img src="https://streak-stats.demolab.com?user=BhasitGupta&theme=tokyonight&background=0d1117&border=30363d&ring=6EE7F7&fire=FF6B6B&currStreakLabel=6EE7F7&sideNums=ffffff&currStreakNum=ffffff&sideLabels=ffffff&dates=888888" alt="Streak Stats" />
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- Trophies -->
+  <section class="trophies fade-in delay-4">
+    <h2>🏆 GitHub Trophies</h2>
+    <img src="https://github-profile-trophy.vercel.app/?username=BhasitGupta&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="Trophies" />
+  </section>
+
+  <hr />
+
+  <!-- Activity Graph -->
+  <section class="fade-in delay-5">
+    <h2>📈 Contribution Graph</h2>
+    <div class="graph-wrap">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=BhasitGupta&bg_color=0d1117&color=6EE7F7&line=6EE7F7&point=FFFFFF&area=true&area_color=6EE7F7&hide_border=true" alt="Activity Graph" />
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- Snake -->
+  <section class="snake-wrap fade-in delay-5">
+    <h2>🐍 Contribution Snake</h2>
+    <img src="https://raw.githubusercontent.com/BhasitGupta/BhasitGupta/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" onerror="this.style.display='none';document.getElementById('snake-note').style.display='block'" />
+    <p id="snake-note" style="display:none;color:var(--muted);font-size:0.82rem;text-align:center;margin-top:8px;">⚙️ Snake animation will appear after setting up the GitHub Actions workflow.</p>
+  </section>
+
+  <hr />
+
+  <!-- Socials -->
+  <section class="fade-in delay-5">
+    <h2>🌐 Let's Connect</h2>
+    <div class="socials">
+      <a class="social-btn btn-linkedin" href="https://linkedin.com/in/bhasitgupta" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn
+      </a>
+      <a class="social-btn btn-twitter" href="https://x.com/bhasitgupta" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        Twitter / X
+      </a>
+      <a class="social-btn btn-portfolio" href="https://bhasitgupta.vercel.app" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.514 0 10 4.486 10 10s-4.486 10-10 10S2 17.514 2 12 6.486 2 12 2zm0 3a7 7 0 100 14A7 7 0 0012 5zm0 2a5 5 0 110 10A5 5 0 0112 7z"/></svg>
+        Portfolio
+      </a>
+      <a class="social-btn btn-email" href="mailto:bhasitgupta@gmail.com" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        Email
+      </a>
+      <a class="social-btn btn-discord" href="https://discord.com/users/bhasitgupta" target="_blank">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 00-4.885-1.515.074.074 0 00-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 00-5.487 0 12.64 12.64 0 00-.617-1.25.077.077 0 00-.079-.037A19.736 19.736 0 003.677 4.37a.07.07 0 00-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 00.031.057 19.9 19.9 0 005.993 3.03.078.078 0 00.084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 00-.041-.106 13.107 13.107 0 01-1.872-.892.077.077 0 01-.008-.128 10.2 10.2 0 00.372-.292.074.074 0 01.077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 01.078.01c.12.098.246.198.373.292a.077.077 0 01-.006.127 12.299 12.299 0 01-1.873.892.077.077 0 00-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 00.084.028 19.839 19.839 0 006.002-3.03.077.077 0 00.032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 00-.031-.03z"/></svg>
+        Discord
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <img class="footer-wave" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" alt="Footer Wave" />
+
+  <p class="footer-quote">
+    <span class="pulse"></span>
+    <em>"Code is poetry — write it with intent."</em><br/><br/>
+    ⭐ <span>Star some repos if you like what you see!</span>
+  </p>
+
+</div>
+</body>
+</html>
