@@ -77,9 +77,9 @@ const bhasit = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=bhasitgupta&show_icons=true&count_private=true&theme=tokyonight&bg_color=0d1117&title_color=6EE7F7&icon_color=6EE7F7&text_color=ffffff&border_color=30363d&hide_border=false&rank_icon=github" alt="Bhasit's GitHub Stats" />
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=bhasitgupta&show_icons=true&count_private=true&theme=tokyonight&bg_color=0d1117&title_color=6EE7F7&icon_color=6EE7F7&text_color=ffffff&border_color=30363d&hide_border=false&rank_icon=github" alt="Bhasit's GitHub Stats" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhasitgupta&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=6EE7F7&text_color=ffffff&border_color=30363d&hide_border=false&langs_count=8" alt="Top Languages" />
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=bhasitgupta&layout=compact&theme=tokyonight&bg_color=0d1117&title_color=6EE7F7&text_color=ffffff&border_color=30363d&hide_border=false&langs_count=8" alt="Top Languages" />
 
 </div>
 
@@ -118,7 +118,7 @@ const bhasit = {
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/output/github-contribution-grid-snake.svg" />
-  <img alt="github-contribution-grid-snake" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" />
+  <img alt="github-contribution-grid-snake" src="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
@@ -131,7 +131,7 @@ const bhasit = {
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhasitgupta)
 [![Twitter / X](https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Bhasit1009)
-[![Portfolio](https://img.shields.io/badge/Portfolio-6EE7F7?style=for-the-badge&logo=vercel&logoColor=black)](https://bhasitgupta.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-6EE7F7?style=for-the-badge&logo=vercel&logoColor=black)](https://bhasitportfolio.vercel.app/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=bhasitgupta@gmail.com)
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/mr_bhasit)
 
