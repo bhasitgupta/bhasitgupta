@@ -95,7 +95,7 @@ const bhasit = {
 
 <div align="center">
 
-![GitHub Contribution Snake](https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/output/github-contribution-grid-snake.svg)
+![GitHub Contribution Snake](https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/output/github-contribution-grid-snake.svg?v=2)
 
 </div>
 
