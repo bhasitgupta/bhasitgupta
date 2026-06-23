@@ -201,8 +201,26 @@
     .graph-wrap img { width: 100%; display: block; border-radius: 12px; }
 
     /* Snake */
-    .snake-wrap { text-align: center; }
-    .snake-wrap img { max-width: 100%; border-radius: 8px; }
+    .snake-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 30px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      transition: border-color 0.3s ease;
+    }
+    .snake-card:hover {
+      border-color: var(--accent);
+    }
+    .snake-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
 
     /* Social links */
     .socials {
@@ -379,9 +397,11 @@
   <hr />
 
   <!-- Contribution Snake -->
-  <section class="snake-wrap fade-in delay-4">
+  <section class="fade-in delay-4">
     <h2>🐍 Snake Contribution</h2>
-    <img src="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+    <div class="snake-card">
+      <img src="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+    </div>
   </section>
 
   <hr />
