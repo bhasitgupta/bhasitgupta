@@ -408,11 +408,10 @@ Concept to pixel-perfect implementation — I design and build my own products e
 ## 🖥️ Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=cs,react,go,ts,js,python,cpp,c,java,bash,flutter"/>
+<img src="https://skillicons.dev/icons?i=react,go,ts,js,python,cpp,c,java,bash,flutter"/>
 </p>
 
 <p>
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
 <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
