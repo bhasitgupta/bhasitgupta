@@ -151,7 +151,7 @@ I work across **engineering** (APIs, databases, cloud, AI agents) and **design**
 # 🔥 Contribution Streak
 
 <p align="center">
-  <img width="100%" src="https://streak-stats.demolab.com?user=bhasitgupta&theme=tokyonight&background=05070a&border=2e2305&ring=ffd700&fire=f59e0b&currStreakLabel=ffd700&currStreakNum=ffffff&sideLabels=ffffff&sideNums=ffffff&dates=888888&hide_border=false&mode=weekly&exclude_days=Sun%2CSat&v=2" alt="Contribution Streak" />
+  <img width="100%" src="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/main/assets/streak.svg" alt="Contribution Streak" />
 </p>
 
 ---
@@ -408,10 +408,12 @@ Concept to pixel-perfect implementation — I design and build my own products e
 ## 🖥️ Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=go,ts,js,python,cpp,c,java,bash,flutter"/>
+<img src="https://skillicons.dev/icons?i=cs,react,go,ts,js,python,cpp,c,java,bash,flutter"/>
 </p>
 
 <p>
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
 <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
