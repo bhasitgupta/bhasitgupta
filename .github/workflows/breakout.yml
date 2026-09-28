@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'profile-3d-contrib/**'
+      - 'images/**'
 
 permissions:
   contents: write
@@ -38,7 +44,7 @@ jobs:
       - name: Commit changes
         run: |
           git add images/
-          git diff --cached --quiet || git commit -m "chore: update breakout SVGs"
+          git diff --cached --quiet || git commit -m "chore: auto-sync breakout SVGs"
 
       - name: Push changes
         run: git push origin HEAD

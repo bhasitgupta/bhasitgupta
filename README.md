@@ -3,7 +3,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="./assets/banner.jpg" width="100%" alt="Crown of Thorns — Bhasit Gupta" style="border-radius: 10px;" />
+  <img src="./assets/banner.png" width="100%" alt="Crown of Thorns — Bhasit Gupta" style="border-radius: 10px;" />
 </p>
 
 <h3 align="center">
@@ -197,9 +197,9 @@ My goal is simple:
 # 📊 GitHub Statistics
 
 <p align="center">
-  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=bhasitgupta&show_icons=true&count_private=true&theme=tokyonight&bg_color=05070a&title_color=f59e0b&icon_color=ffd700&text_color=ffffff&border_color=2e2305&hide_border=false&rank_icon=github" alt="Bhasit's GitHub Stats" />
+  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=bhasitgupta&show_icons=true&include_all_commits=true&count_private=true&cache_seconds=1800&theme=tokyonight&bg_color=05070a&title_color=f59e0b&icon_color=ffd700&text_color=ffffff&border_color=2e2305&hide_border=false&rank_icon=github" alt="Bhasit's GitHub Stats" />
   &nbsp;
-  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=bhasitgupta&layout=compact&theme=tokyonight&bg_color=05070a&title_color=f59e0b&text_color=ffffff&border_color=2e2305&hide_border=false&langs_count=8" alt="Top Languages" />
+  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=bhasitgupta&layout=compact&cache_seconds=1800&theme=tokyonight&bg_color=05070a&title_color=f59e0b&text_color=ffffff&border_color=2e2305&hide_border=false&langs_count=8" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -211,6 +211,8 @@ My goal is simple:
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                              TECH STACK                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="220" alt="Android Animation"/>
 
 # 💻 Tech Stack
 
@@ -226,6 +228,8 @@ My goal is simple:
 <img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=black" />
 <img src="https://img.shields.io/badge/After_Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=black" />
 </p>
+
+<br clear="right"/>
 
 ---
 
