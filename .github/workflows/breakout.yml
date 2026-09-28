@@ -47,4 +47,6 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: auto-sync breakout SVGs"
 
       - name: Push changes
-        run: git push origin HEAD
+        run: |
+          git pull --rebase origin HEAD
+          git push origin HEAD
