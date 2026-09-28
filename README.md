@@ -115,13 +115,32 @@ I work across **engineering** (APIs, databases, cloud, AI agents) and **design**
 <!--                    LIVE GITHUB METRICS (auto-generated SVG)             -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-# 📊 Live GitHub Metrics
+# 📊 GitHub Statistics
 
-> Auto-generated every 6 hours directly from GitHub API — always accurate.
+> Auto-generated every 6 hours directly from GitHub API via PAT — always your real data.
 
-<p align="center">
-  <img src="./github-metrics.svg" width="100%" alt="Live GitHub Metrics" />
-</p>
+<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
+  <img width="100%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details"/>
+</a>
+
+<table align="center" width="100%">
+<tr>
+  <td width="50%">
+    <img width="100%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language"/>
+  </td>
+  <td width="50%">
+    <img width="100%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language"/>
+  </td>
+</tr>
+<tr>
+  <td width="50%">
+    <img width="100%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats"/>
+  </td>
+  <td width="50%">
+    <img width="100%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time"/>
+  </td>
+</tr>
+</table>
 
 ---
 
