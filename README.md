@@ -3,16 +3,16 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="./assets/banner.png" width="100%" alt="Crown of Thorns — Bhasit Gupta" style="border-radius: 10px;" />
+  <img src="./assets/banner.png" width="100%" alt="Crown of Thorns — Bhasit Gupta" />
 </p>
 
 <h3 align="center">
-  ⚡ Builder &nbsp;•&nbsp; 💻 Full-Stack Engineer &nbsp;•&nbsp; 🤖 AI Systems Architect &nbsp;•&nbsp; 🎨 Product Maker
+  ⚡ Builder &nbsp;•&nbsp; 💻 Full-Stack Engineer &nbsp;•&nbsp; 🤖 AI Systems Architect &nbsp;•&nbsp; 🎨 Product Designer
 </h3>
 
 <p align="center">
   <strong>Turning ambitious ideas into scalable products.</strong><br/>
-  I design, engineer, and ship high-impact full-stack web applications, autonomous AI systems, and polished digital experiences.
+  I engineer full-stack web applications, autonomous AI systems, and craft polished digital experiences — from Figma frame to production code.
 </p>
 
 <p align="center">
@@ -26,17 +26,20 @@
     <img src="https://img.shields.io/badge/X-@Bhasit1009-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
   <a href="mailto:bhasitgupta@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-bhasitgupta@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://bhasitportfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Live%20Demo-F59E0B?style=for-the-badge&logo=vercel&logoColor=black"/>
+    <img src="https://img.shields.io/badge/Portfolio-bhasitportfolio.vercel.app-F59E0B?style=for-the-badge&logo=vercel&logoColor=black"/>
+  </a>
+  <a href="https://discord.com/users/mr_bhasit">
+    <img src="https://img.shields.io/badge/Discord-mr__bhasit-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=900&color=F59E0B&center=true&vCenter=true&width=750&lines=Pain+builds.+Power+remains.;Building+Scalable+Full-Stack+Web+Products;Designing+High-Impact+User+Experiences;Engineering+Autonomous+AI+%26+Intelligent+Systems;Shipping+Production+Applications+End-to-End;Always+Learning.+Always+Building." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=900&color=F59E0B&center=true&vCenter=true&width=800&lines=Pain+builds.+Power+remains.;Full-Stack+Architect+%E2%80%94+Scalable+Web+Systems;Autonomous+AI+%26+Agentic+Pipelines;Figma+to+Production%3A+Design+Systems+that+Scale;Web3+%C3%97+Blockchain+%C3%97+Smart+Contracts;Always+building.+Always+shipping." />
 </p>
 
 <br/>
@@ -47,28 +50,28 @@
 
 ### 🚀
 **Products**<br/>
-**15+ Built & Shipped**
+**15+ Shipped**
 
 </td>
 <td align="center" width="180">
 
-### ⚡
+### 💻
 **Stack**<br/>
-**Full-Stack & Next.js**
+**Full-Stack · Next.js**
 
 </td>
 <td align="center" width="180">
 
 ### 🤖
-**Focus**<br/>
-**AI Systems × SaaS**
+**Systems**<br/>
+**AI × SaaS × Web3**
 
 </td>
 <td align="center" width="180">
 
 ### 🎨
-**Craft**<br/>
-**Code × Design**
+**Design**<br/>
+**Figma → Code**
 
 </td>
 </tr>
@@ -77,9 +80,9 @@
 <br/>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/bhasitgupta?label=FOLLOWERS&style=for-the-badge&color=0a0e17&labelColor=05070a" />
-  <img src="https://img.shields.io/github/stars/bhasitgupta?label=STARS&style=for-the-badge&color=F59E0B&labelColor=05070a" />
-  <img src="https://komarev.com/ghpvc/?username=bhasitgupta&label=PROFILE%20VIEWS&color=F59E0B&style=for-the-badge&labelColor=05070a" />
+  <img src="https://img.shields.io/github/followers/bhasitgupta?label=FOLLOWERS&style=for-the-badge&labelColor=05070a&color=F59E0B" />
+  <img src="https://img.shields.io/github/stars/bhasitgupta?label=STARS&style=for-the-badge&labelColor=05070a&color=F59E0B" />
+  <img src="https://komarev.com/ghpvc/?username=bhasitgupta&label=PROFILE+VIEWS&color=F59E0B&style=for-the-badge&labelColor=05070a" />
 </p>
 
 <br/>
@@ -87,6 +90,8 @@
 <p align="center">
   <i>"Pain builds. Power remains. Beyond strength, beyond limits, beyond you."</i>
 </p>
+
+---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                              ABOUT ME                                   -->
@@ -96,15 +101,39 @@
 
 <div align="center">
 
-I'm a **Full-Stack Developer, AI Systems Architect & Product Builder** focused on turning ideas into scalable, high-performance products.
+I'm a **Full-Stack Developer, AI Systems Architect, and Product Designer** — I own the entire spectrum from initial concept to deployed production system.
 
-I engineer across the entire stack — from **design systems, micro-interactions, and reactive interfaces** to **robust backend APIs, real-time databases, AI agents, and cloud infrastructure**.
+I work across **engineering** (APIs, databases, cloud, AI agents) and **design** (systems, motion, visual identity, UX architecture) — treating both as equal crafts that serve the same mission:
 
-My goal is simple:
-
-**Build software that is technically rock-solid, visually exceptional, and genuinely impactful.**
+**Build things that are technically bulletproof, visually unforgettable, and genuinely useful.**
 
 </div>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                    LIVE GITHUB METRICS (auto-generated SVG)             -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+# 📊 Live GitHub Metrics
+
+> Auto-generated every 6 hours directly from GitHub API — always accurate.
+
+<p align="center">
+  <img src="./github-metrics.svg" width="100%" alt="Live GitHub Metrics" />
+</p>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                         LIVE STREAK STATS                               -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+# 🔥 Contribution Streak
+
+<p align="center">
+  <img width="100%" src="https://streak-stats.demolab.com?user=bhasitgupta&theme=tokyonight&background=05070a&border=2e2305&ring=ffd700&fire=f59e0b&currStreakLabel=ffd700&currStreakNum=ffffff&sideLabels=ffffff&sideNums=ffffff&dates=888888&hide_border=false" alt="Contribution Streak" />
+</p>
 
 ---
 
@@ -119,7 +148,7 @@ My goal is simple:
 </p>
 
 <details>
-<summary>🎨 Other Themes</summary>
+<summary>🎨 Other 3D Skyline Themes</summary>
 
 ### 🌙 Night Green
 <img src="./profile-3d-contrib/profile-night-green.svg">
@@ -149,11 +178,6 @@ My goal is simple:
 ### 🧱 GitBlock
 <img src="./profile-3d-contrib/profile-gitblock.svg">
 
----
-
-### ⚪ South Season
-<img src="./profile-3d-contrib/profile-south-season-animate.svg">
-
 </details>
 
 <br/>
@@ -161,10 +185,20 @@ My goal is simple:
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--                         LIVE ACTIVITY GRAPH                             -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+# 📈 Commit Activity Graph
+
+[![Bhasit's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bhasitgupta&bg_color=05070a&color=f59e0b&line=ffd700&point=ffffff&area=true&area_color=f59e0b&hide_border=false&border_color=2e2305)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                           GITHUB BREAKOUT                               -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-# 🎮 GitHub Breakout
+# 🎮 GitHub Breakout — Playable Game
 
 <p align="center">
 <picture>
@@ -191,32 +225,61 @@ My goal is simple:
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                         GITHUB STATISTICS                               -->
+<!--                         WHAT I BUILD & DESIGN                           -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-# 📊 GitHub Statistics
+# ⚡ What I Build & Design
 
-<p align="center">
-  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=bhasitgupta&show_icons=true&include_all_commits=true&count_private=true&cache_seconds=1800&theme=tokyonight&bg_color=05070a&title_color=f59e0b&icon_color=ffd700&text_color=ffffff&border_color=2e2305&hide_border=false&rank_icon=github" alt="Bhasit's GitHub Stats" />
-  &nbsp;
-  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=bhasitgupta&layout=compact&cache_seconds=1800&theme=tokyonight&bg_color=05070a&title_color=f59e0b&text_color=ffffff&border_color=2e2305&hide_border=false&langs_count=8" alt="Top Languages" />
-</p>
+<table align="center" width="100%">
+<tr>
+<td align="center" valign="top" width="50%">
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=bhasitgupta&theme=tokyonight&background=05070a&border=2e2305&ring=ffd700&fire=f59e0b&currStreakLabel=ffd700&currStreakNum=ffffff&sideLabels=ffffff&sideNums=ffffff&dates=888888" alt="GitHub Streak Stats" />
-</p>
+## 💻 Engineering
+
+**Full-Stack Web Systems**
+Scalable Next.js apps, REST & real-time APIs, Supabase/PostgreSQL, cloud deployments, CI/CD pipelines
+
+**AI & Autonomous Systems**
+LLM-powered agents, agentic workflows, OpenAI integrations, neural pipeline engineering
+
+**Web3 & Blockchain**
+Smart contracts (Solidity), Stellar/Soroban DeFi apps, IPFS storage, WalletConnect integration
+
+**Developer Tooling**
+Discord bots, automation with n8n, SaaS dashboards, music bots, monitoring platforms
+
+</td>
+<td align="center" valign="top" width="50%">
+
+## 🎨 Design & Craft
+
+**UI/UX Architecture**
+Design systems, component libraries, wireframes, high-fidelity Figma prototypes
+
+**Visual Identity**
+Brand identities, logo design, typography systems, color theory, graphic design
+
+**Motion & Animation**
+After Effects motion graphics, CSS micro-interactions, SVG animations, scroll-triggered UX
+
+**Product Design**
+Concept to pixel-perfect implementation — I design and build my own products end-to-end
+
+</td>
+</tr>
+</table>
 
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                              TECH STACK                                 -->
+<!--                              TECH ARSENAL                               -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="220" alt="Android Animation"/>
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="220" alt="Developer Animation"/>
 
-# 💻 Tech Stack
+# 💻 Tech Arsenal
 
-## 🎨 Design & Prototyping
+## 🎨 Design & Motion
 
 <p>
 <img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,xd,ae,pr"/>
@@ -227,13 +290,14 @@ My goal is simple:
 <img src="https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=black" />
 <img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=black" />
 <img src="https://img.shields.io/badge/After_Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=black" />
+<img src="https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=black" />
 </p>
 
 <br clear="right"/>
 
 ---
 
-## 🌐 Frontend Development
+## 🌐 Frontend Engineering
 
 <p>
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite,threejs,redux"/>
@@ -249,18 +313,17 @@ My goal is simple:
 
 ---
 
-## ⚙️ Backend Development
+## ⚙️ Backend & Systems
 
 <p>
 <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,python,nestjs,go"/>
 </p>
 
 <p>
-<img src="https://img.shields.io/badge/Go_Lang-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
 </p>
 
 ---
@@ -268,7 +331,7 @@ My goal is simple:
 ## 🗄️ Databases & Storage
 
 <p>
-<img src="https://skillicons.dev/icons?i=mongodb,firebase,supabase,postgres,mysql,redis"/>
+<img src="https://skillicons.dev/icons?i=supabase,postgres,mongodb,firebase,mysql,redis"/>
 </p>
 
 <p>
@@ -311,7 +374,7 @@ My goal is simple:
 
 ---
 
-## ☁️ Cloud & DevOps
+## ☁️ Cloud, DevOps & CI/CD
 
 <p>
 <img src="https://skillicons.dev/icons?i=docker,githubactions,git,github,vercel,cloudflare,aws"/>
@@ -319,7 +382,7 @@ My goal is simple:
 
 ---
 
-## 🛠️ Development & Productivity Tools
+## 🛠️ Dev Tools & Productivity
 
 <p>
 <img src="https://skillicons.dev/icons?i=vscode,webstorm,postman,npm,bun,pnpm"/>
@@ -327,33 +390,23 @@ My goal is simple:
 
 <p>
 <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-</p>
-
----
-
-## ⚡ Automation & Workflows
-
-<p>
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
 <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=microsoftpowerautomate&logoColor=white"/>
-<img src="https://img.shields.io/badge/ServiceNow-81B441?style=for-the-badge&logo=servicenow&logoColor=white"/>
 </p>
 
 ---
 
-## 🖥️ Programming Languages
+## 🖥️ Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=go,python,js,ts,cpp,c,java,bash,flutter"/>
+<img src="https://skillicons.dev/icons?i=go,ts,js,python,cpp,c,java,bash,flutter"/>
 </p>
 
 <p>
-<img src="https://img.shields.io/badge/Go_Lang-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
 </p>
 
@@ -363,44 +416,29 @@ My goal is simple:
 <!--                         CONNECT WITH ME                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-# 🌐 Connect With Me
+# 🌐 Connect
 
 <p align="center">
-
-<a href="https://github.com/bhasitgupta">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a>
+<a href="https://github.com/bhasitgupta"><img src="https://skillicons.dev/icons?i=github"/></a>
 &nbsp;
-<a href="https://linkedin.com/in/bhasitgupta">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
+<a href="https://linkedin.com/in/bhasitgupta"><img src="https://skillicons.dev/icons?i=linkedin"/></a>
 &nbsp;
-<a href="mailto:bhasitgupta@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
+<a href="mailto:bhasitgupta@gmail.com"><img src="https://skillicons.dev/icons?i=gmail"/></a>
 &nbsp;
-<a href="https://x.com/Bhasit1009">
-<img src="https://skillicons.dev/icons?i=twitter"/>
-</a>
-
+<a href="https://x.com/Bhasit1009"><img src="https://skillicons.dev/icons?i=twitter"/></a>
+&nbsp;
+<a href="https://discord.com/users/mr_bhasit"><img src="https://skillicons.dev/icons?i=discord"/></a>
 </p>
 
 <br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                           SIGNATURE FOOTER                              -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<br/><br/>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73928744/182041587-527d010a-80d3-4b57-bd99-c2be13c1a516.png" width="100%" alt="Signature Wave Footer" />
+  <img src="https://user-images.githubusercontent.com/73928744/182041587-527d010a-80d3-4b57-bd99-c2be13c1a516.png" width="100%" alt="Footer" />
 </p>
 
 *"Pain builds. Power remains. Beyond strength, beyond limits, beyond you."*
-
-<br/>
 
 ⭐ **Star some repos if you like what you see!**
 
