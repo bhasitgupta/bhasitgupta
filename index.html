@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bhasit Gupta — GitHub Profile</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet" />
+  <title>Bhasit Gupta — Full-Stack Architect & Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #0d1117;
-      --surface: #161b22;
-      --border: #30363d;
-      --accent: #6ee7f7;
-      --accent2: #7c3aed;
-      --text: #e6edf3;
-      --muted: #8b949e;
-      --green: #39d353;
+      --bg: #050811;
+      --surface: #0c1017;
+      --border: #1e293b;
+      --accent: #00f0ff;
+      --accent2: #8b5cf6;
+      --pink: #ff0055;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
     }
 
     body {
@@ -27,31 +27,31 @@
       overflow-x: hidden;
     }
 
-    /* Animated background */
     body::before {
       content: '';
       position: fixed;
       inset: 0;
-      background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(110,231,247,0.07), transparent),
-                  radial-gradient(ellipse 60% 40% at 80% 80%, rgba(124,58,237,0.06), transparent);
+      background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0,240,255,0.08), transparent),
+                  radial-gradient(ellipse 60% 40% at 80% 80%, rgba(255,0,85,0.06), transparent);
       pointer-events: none;
       z-index: 0;
     }
 
     .container {
-      max-width: 860px;
+      max-width: 900px;
       margin: 0 auto;
       padding: 0 20px 60px;
       position: relative;
       z-index: 1;
     }
 
-    /* Header Banner */
     .banner {
       width: 100%;
-      border-radius: 0 0 16px 16px;
+      border-radius: 12px;
       overflow: hidden;
       display: block;
+      margin-top: 20px;
+      box-shadow: 0 10px 40px rgba(0, 240, 255, 0.1);
     }
 
     /* Typing animation */
@@ -284,7 +284,7 @@
 <div class="container">
 
   <!-- Header Banner -->
-  <img class="banner" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Bhasit%20Gupta&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Product%20Builder%20%7C%20AI%20Enthusiast&descAlignY=58&descSize=16" alt="Header Banner" />
+  <img class="banner" src="assets/hero-banner.svg" alt="Header Banner" />
 
   <!-- Typing SVG -->
   <div class="typing-wrap fade-in delay-1">

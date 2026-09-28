@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070e" />
+      <stop offset="50%" stop-color="#090d18" />
+      <stop offset="100%" stop-color="#04060a" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="35%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#FF0055" />
+    </linearGradient>
+
+    <linearGradient id="accentCyanPink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#FF0055" />
+    </linearGradient>
+
+    <linearGradient id="cyberBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="75%" stop-color="#FF0055" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FF0055" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowPink" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#FF0055" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#FF0055" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#7928CA" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#7928CA" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#10192e" stroke-width="0.8" stroke-opacity="0.6" />
+      <circle cx="40" cy="40" r="1" fill="#00F0FF" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes scanline {
+      0% { transform: translateY(-460px); opacity: 0; }
+      15% { opacity: 0.8; }
+      85% { opacity: 0.8; }
+      100% { transform: translateY(460px); opacity: 0; }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.85; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+    @keyframes floatParticle {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+      50% { transform: translateY(-15px) translateX(8px); opacity: 0.8; }
+      100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+    }
+    @keyframes borderPulse {
+      0%, 100% { stroke-opacity: 0.4; }
+      50% { stroke-opacity: 0.9; }
+    }
+
+    .hud-text {
+      font-family: 'SF Mono', 'Fira Code', 'Roboto Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 2px;
+      fill: #00F0FF;
+      font-weight: 600;
+    }
+    .hud-dim {
+      fill: #4B5E80;
+    }
+    .name-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Montserrat', 'Inter', sans-serif;
+      font-weight: 900;
+      font-size: 68px;
+      letter-spacing: 12px;
+      fill: url(#textGrad);
+    }
+    .subtitle-badge {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: 5px;
+      fill: #E2E8F0;
+    }
+    .tag-text {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+    }
+    .scanner {
+      animation: scanline 7s ease-in-out infinite;
+    }
+    .pulsing {
+      animation: pulseGlow 4s ease-in-out infinite;
+    }
+    .blinker {
+      animation: blink 2s infinite;
+    }
+    .particle {
+      animation: floatParticle 5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="460" fill="url(#bgGrad)" />
+  <rect width="1200" height="460" fill="url(#cyberGrid)" />
+
+  <!-- Ambient Light Orbs -->
+  <rect width="1200" height="460" fill="url(#glowCyan)" />
+  <rect width="1200" height="460" fill="url(#glowPink)" />
+  <rect width="1200" height="460" fill="url(#glowPurple)" />
+
+  <!-- Geometric Circuit Accents -->
+  <g opacity="0.35" stroke="#00F0FF" stroke-width="1" fill="none">
+    <path d="M 60 80 L 140 80 L 170 50 L 320 50" />
+    <circle cx="320" cy="50" r="3" fill="#00F0FF" />
+    <path d="M 1140 80 L 1060 80 L 1030 50 L 880 50" />
+    <circle cx="880" cy="50" r="3" fill="#FF0055" stroke="#FF0055" />
+    <path d="M 60 380 L 140 380 L 170 410 L 360 410" />
+    <circle cx="360" cy="410" r="3" fill="#00F0FF" />
+    <path d="M 1140 380 L 1060 380 L 1030 410 L 840 410" />
+    <circle cx="840" cy="410" r="3" fill="#FF0055" stroke="#FF0055" />
+  </g>
+
+  <!-- Outer Cyber Frame -->
+  <rect x="25" y="25" width="1150" height="410" fill="none" stroke="#1C2740" stroke-width="1.2" rx="14" />
+  <rect x="35" y="35" width="1130" height="390" fill="none" stroke="#00F0FF" stroke-width="1" stroke-dasharray="12 180" class="pulsing" rx="10" />
+
+  <!-- Corner Brackets -->
+  <g stroke="#00F0FF" stroke-width="3" fill="none" class="pulsing">
+    <!-- Top-Left -->
+    <path d="M 25 65 L 25 25 L 65 25" />
+    <!-- Top-Right -->
+    <path d="M 1175 65 L 1175 25 L 1135 25" stroke="#FF0055" />
+    <!-- Bottom-Left -->
+    <path d="M 25 395 L 25 435 L 65 435" />
+    <!-- Bottom-Right -->
+    <path d="M 1175 395 L 1175 435 L 1135 435" stroke="#FF0055" />
+  </g>
+
+  <!-- Top Telemetry Bar -->
+  <g transform="translate(60, 68)">
+    <circle cx="0" cy="0" r="4" fill="#00F0FF" class="blinker" />
+    <text x="14" y="4" class="hud-text">SYS.ON // BHASIT.OS v3.8</text>
+    <text x="260" y="4" class="hud-text hud-dim">|</text>
+    <text x="285" y="4" class="hud-text">DESIGN SYSTEM: ACTIVATED</text>
+    <text x="560" y="4" class="hud-text hud-dim">|</text>
+    <text x="585" y="4" class="hud-text">AI AGENTIC PIPELINES: READY</text>
+    <text x="890" y="4" class="hud-text" style="fill: #FF0055;">LATENCY: 0.02ms</text>
+  </g>
+
+  <!-- Scanner Light Beam -->
+  <g class="scanner">
+    <rect x="40" y="0" width="1120" height="3" fill="url(#cyberBar)" filter="url(#glow)" />
+  </g>
+
+  <!-- Floating Tech Dust Particles -->
+  <circle cx="180" cy="160" r="1.5" fill="#00F0FF" class="particle" />
+  <circle cx="340" cy="310" r="2" fill="#FF0055" class="particle" style="animation-delay: -2s;" />
+  <circle cx="890" cy="140" r="1.8" fill="#8B5CF6" class="particle" style="animation-delay: -3.5s;" />
+  <circle cx="1020" cy="290" r="1.5" fill="#00F0FF" class="particle" style="animation-delay: -1s;" />
+
+  <!-- Center Hex/Crosshair Decals -->
+  <g transform="translate(600, 140)" opacity="0.25">
+    <circle cx="0" cy="0" r="85" fill="none" stroke="#00F0FF" stroke-width="1" stroke-dasharray="8 6" />
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#FF0055" stroke-width="1" stroke-dasharray="14 10" />
+    <line x1="-110" y1="0" x2="110" y2="0" stroke="#00F0FF" stroke-width="0.8" />
+    <line x1="0" y1="-110" x2="0" y2="110" stroke="#00F0FF" stroke-width="0.8" />
+  </g>
+
+  <!-- MAIN BRAND TITLE -->
+  <g transform="translate(600, 215)" text-anchor="middle">
+    <!-- Glow Backdrop -->
+    <text x="0" y="0" class="name-title" filter="url(#glow)" opacity="0.5">BHASIT GUPTA</text>
+    <!-- Crisp Foreground -->
+    <text x="0" y="0" class="name-title">BHASIT GUPTA</text>
+  </g>
+
+  <!-- Accent Divider Beam -->
+  <rect x="360" y="242" width="480" height="2.5" fill="url(#cyberBar)" filter="url(#glow)" />
+
+  <!-- Subtitle Tagline -->
+  <g transform="translate(600, 282)" text-anchor="middle">
+    <text x="0" y="0" class="subtitle-badge">FULL-STACK ARCHITECT  •  UI/UX &amp; MOTION DESIGNER  •  AI SYSTEMS BUILDER</text>
+  </g>
+
+  <!-- Philosophy Line -->
+  <g transform="translate(600, 318)" text-anchor="middle">
+    <text x="0" y="0" font-family="'Inter', sans-serif" font-size="13" font-weight="500" letter-spacing="3" fill="#94A3B8">
+      ENGINEERING THE FUTURE AT THE CONVERGENCE OF HIGH-PERFORMANCE CODE &amp; OBSESSIVE DESIGN
+    </text>
+  </g>
+
+  <!-- Lower Tech Feature Badges (3 Interactive Pills) -->
+  <g transform="translate(600, 375)">
+    <!-- Pill 1: Architecture -->
+    <g transform="translate(-360, 0)">
+      <rect x="-120" y="-18" width="240" height="36" rx="8" fill="#0C1425" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.6" />
+      <text x="0" y="5" text-anchor="middle" class="tag-text" fill="#00F0FF">⚡ FULL-STACK ARCHITECT</text>
+    </g>
+
+    <!-- Pill 2: UI/UX & Motion -->
+    <g transform="translate(0, 0)">
+      <rect x="-140" y="-18" width="280" height="36" rx="8" fill="#130D22" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.7" />
+      <text x="0" y="5" text-anchor="middle" class="tag-text" fill="#D8B4FE">🎨 UI/UX &amp; MOTION DESIGN</text>
+    </g>
+
+    <!-- Pill 3: AI & Web3 -->
+    <g transform="translate(360, 0)">
+      <rect x="-120" y="-18" width="240" height="36" rx="8" fill="#1B0C1A" stroke="#FF0055" stroke-width="1" stroke-opacity="0.6" />
+      <text x="0" y="5" text-anchor="middle" class="tag-text" fill="#FF0055">🤖 AI &amp; AGENTIC SYSTEMS</text>
+    </g>
+  </g>
+
+  <!-- Bottom Coordinates Decal -->
+  <g transform="translate(60, 418)">
+    <text x="0" y="0" class="hud-text hud-dim">LOC: 28.6139° N, 77.2090° E // IN</text>
+    <text x="960" y="0" class="hud-text hud-dim">STATUS: READY TO SHIP</text>
+  </g>
+</svg>
