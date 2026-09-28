@@ -3,11 +3,11 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="./assets/hero-banner.svg" width="100%" alt="Bhasit Gupta — Full-Stack Architect &amp; Product Builder" />
+  <img src="./assets/banner.jpg" width="100%" alt="Crown of Thorns — Bhasit Gupta" style="border-radius: 10px;" />
 </p>
 
 <h3 align="center">
-  ⚡ Builder &nbsp;•&nbsp; 💻 Full-Stack Engineer &nbsp;•&nbsp; 🤖 AI Systems Architect &nbsp;•&nbsp; 🎨 Product Designer
+  ⚡ Builder &nbsp;•&nbsp; 💻 Full-Stack Engineer &nbsp;•&nbsp; 🤖 AI Systems Architect &nbsp;•&nbsp; 🎨 Product Maker
 </h3>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 <p align="center">
   <a href="https://github.com/bhasitgupta">
-    <img src="https://img.shields.io/badge/GitHub-bhasitgupta-111827?style=for-the-badge&logo=github&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GitHub-bhasitgupta-0a0e17?style=for-the-badge&logo=github&logoColor=F59E0B"/>
   </a>
   <a href="https://linkedin.com/in/bhasitgupta">
     <img src="https://img.shields.io/badge/LinkedIn-Bhasit%20Gupta-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -29,14 +29,14 @@
     <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://bhasitportfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Live%20Demo-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Portfolio-Live%20Demo-F59E0B?style=for-the-badge&logo=vercel&logoColor=black"/>
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=FF003C&center=true&vCenter=true&width=750&lines=Building+Scalable+Full-Stack+Web+Products;Designing+High-Impact+User+Experiences;Engineering+Autonomous+AI+%26+Intelligent+Pipelines;Shipping+Production+Applications+End-to-End;Always+Learning.+Always+Building." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=900&color=F59E0B&center=true&vCenter=true&width=750&lines=Pain+builds.+Power+remains.;Building+Scalable+Full-Stack+Web+Products;Designing+High-Impact+User+Experiences;Engineering+Autonomous+AI+%26+Intelligent+Systems;Shipping+Production+Applications+End-to-End;Always+Learning.+Always+Building." />
 </p>
 
 <br/>
@@ -77,15 +77,15 @@
 <br/>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/bhasitgupta?label=FOLLOWERS&style=for-the-badge&color=111827" />
-  <img src="https://img.shields.io/github/stars/bhasitgupta?label=STARS&style=for-the-badge&color=f59e0b" />
-  <img src="https://komarev.com/ghpvc/?username=bhasitgupta&label=PROFILE%20VIEWS&color=FF003C&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/bhasitgupta?label=FOLLOWERS&style=for-the-badge&color=0a0e17&labelColor=05070a" />
+  <img src="https://img.shields.io/github/stars/bhasitgupta?label=STARS&style=for-the-badge&color=F59E0B&labelColor=05070a" />
+  <img src="https://komarev.com/ghpvc/?username=bhasitgupta&label=PROFILE%20VIEWS&color=F59E0B&style=for-the-badge&labelColor=05070a" />
 </p>
 
 <br/>
 
 <p align="center">
-  <i>"Don't just learn technology. Build and ship with it."</i>
+  <i>"Pain builds. Power remains. Beyond strength, beyond limits, beyond you."</i>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
@@ -156,7 +156,7 @@ My goal is simple:
 
 </details>
 
-<br clear="right"/>
+<br/>
 
 ---
 
@@ -197,13 +197,13 @@ My goal is simple:
 # 📊 GitHub Statistics
 
 <p align="center">
-  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=bhasitgupta&show_icons=true&count_private=true&theme=tokyonight&bg_color=0a0a0c&title_color=ff003c&icon_color=ff003c&text_color=ffffff&border_color=251016&hide_border=false&rank_icon=github" alt="Bhasit's GitHub Stats" />
+  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=bhasitgupta&show_icons=true&count_private=true&theme=tokyonight&bg_color=05070a&title_color=f59e0b&icon_color=ffd700&text_color=ffffff&border_color=2e2305&hide_border=false&rank_icon=github" alt="Bhasit's GitHub Stats" />
   &nbsp;
-  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=bhasitgupta&layout=compact&theme=tokyonight&bg_color=0a0a0c&title_color=ff003c&text_color=ffffff&border_color=251016&hide_border=false&langs_count=8" alt="Top Languages" />
+  <img height="185em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=bhasitgupta&layout=compact&theme=tokyonight&bg_color=05070a&title_color=f59e0b&text_color=ffffff&border_color=2e2305&hide_border=false&langs_count=8" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=bhasitgupta&theme=tokyonight&background=0a0a0c&border=251016&ring=ff003c&fire=ff003c&currStreakLabel=ff003c&sideNums=ffffff&currStreakNum=ffffff&sideLabels=ffffff&dates=888888" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=bhasitgupta&theme=tokyonight&background=05070a&border=2e2305&ring=ffd700&fire=f59e0b&currStreakLabel=ffd700&currStreakNum=ffffff&sideLabels=ffffff&sideNums=ffffff&dates=888888" alt="GitHub Streak Stats" />
 </p>
 
 ---
@@ -212,14 +212,19 @@ My goal is simple:
 <!--                              TECH STACK                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="300" alt="Developer Animation"/>
-
 # 💻 Tech Stack
 
 ## 🎨 Design & Prototyping
 
 <p>
 <img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator,xd,ae,pr"/>
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+<img src="https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=black" />
+<img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=black" />
+<img src="https://img.shields.io/badge/After_Effects-9999FF?style=for-the-badge&logo=adobeaftereffects&logoColor=black" />
 </p>
 
 ---
@@ -230,6 +235,14 @@ My goal is simple:
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite,threejs,redux"/>
 </p>
 
+<p>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
+</p>
+
 ---
 
 ## ⚙️ Backend Development
@@ -238,12 +251,27 @@ My goal is simple:
 <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,python,nestjs,go"/>
 </p>
 
+<p>
+<img src="https://img.shields.io/badge/Go_Lang-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+</p>
+
 ---
 
 ## 🗄️ Databases & Storage
 
 <p>
 <img src="https://skillicons.dev/icons?i=mongodb,firebase,supabase,postgres,mysql,redis"/>
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
 </p>
 
 ---
@@ -255,11 +283,9 @@ My goal is simple:
 </p>
 
 <p>
-<img src="https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/LangGraph-121212?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Agentic_AI-7B61FF?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/OpenAI_APIs-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Agentic_AI-F59E0B?style=for-the-badge"/>
 </p>
 
 ---
@@ -277,7 +303,6 @@ My goal is simple:
 <img src="https://img.shields.io/badge/Ethers.js-3C3C3D?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/WalletConnect-3B99FC?style=for-the-badge&logo=walletconnect&logoColor=white"/>
 <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Filecoin-0090FF?style=for-the-badge&logo=filecoin&logoColor=white"/>
 </p>
 
 ---
@@ -290,15 +315,21 @@ My goal is simple:
 
 ---
 
-## 🛠️ Development Tools
+## 🛠️ Development & Productivity Tools
 
 <p>
 <img src="https://skillicons.dev/icons?i=vscode,webstorm,postman,npm,bun,pnpm"/>
 </p>
 
+<p>
+<img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+</p>
+
 ---
 
-## ⚡ Automation & Productivity
+## ⚡ Automation & Workflows
 
 <p>
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
@@ -311,10 +342,16 @@ My goal is simple:
 ## 🖥️ Programming Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=cpp,c,java,python,js,ts,bash,flutter"/>
+<img src="https://skillicons.dev/icons?i=go,python,js,ts,cpp,c,java,bash,flutter"/>
 </p>
 
-<br clear="right"/>
+<p>
+<img src="https://img.shields.io/badge/Go_Lang-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+</p>
 
 ---
 
@@ -357,7 +394,7 @@ My goal is simple:
   <img src="https://user-images.githubusercontent.com/73928744/182041587-527d010a-80d3-4b57-bd99-c2be13c1a516.png" width="100%" alt="Signature Wave Footer" />
 </p>
 
-*"Code is poetry — write it with intent."*
+*"Pain builds. Power remains. Beyond strength, beyond limits, beyond you."*
 
 <br/>
 
