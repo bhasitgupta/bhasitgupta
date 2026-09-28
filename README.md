@@ -132,7 +132,7 @@ I work across **engineering** (APIs, databases, cloud, AI agents) and **design**
 # 🔥 Contribution Streak
 
 <p align="center">
-  <img width="100%" src="https://streak-stats.demolab.com?user=bhasitgupta&theme=tokyonight&background=05070a&border=2e2305&ring=ffd700&fire=f59e0b&currStreakLabel=ffd700&currStreakNum=ffffff&sideLabels=ffffff&sideNums=ffffff&dates=888888&hide_border=false" alt="Contribution Streak" />
+  <img width="100%" src="https://streak-stats.demolab.com?user=bhasitgupta&theme=tokyonight&background=05070a&border=2e2305&ring=ffd700&fire=f59e0b&currStreakLabel=ffd700&currStreakNum=ffffff&sideLabels=ffffff&sideNums=ffffff&dates=888888&hide_border=false&mode=weekly&exclude_days=Sun%2CSat&v=2" alt="Contribution Streak" />
 </p>
 
 ---

@@ -24,6 +24,8 @@ jobs:
         uses: lowlighter/metrics@latest
 
         with:
+          # Use METRICS_TOKEN (classic PAT with repo+read:user+read:org+gist)
+          # Falls back to GITHUB_TOKEN but private contributions won't count
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: bhasitgupta
           filename: github-metrics.svg
@@ -32,25 +34,44 @@ jobs:
           config_timezone: Asia/Kolkata
           config_display: large
 
+          # Capture commits across ALL email aliases / names
+          commits_authoring: bhasitgupta, bhasitgupta@gmail.com
+
+          # Include all repos (not just first 100)
+          repositories: 200
+          repositories_forks: yes
+
+          # Full base: header + activity + community + repo stats
           base: header, activity, community, repositories
+          base_indepth: yes
 
-          # Contribution iso-calendar
+          # Full-year isocalendar (matches GitHub's "last year" view)
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
 
-          # Most-used languages
+          # All languages, indepth byte scan
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
+          plugin_languages_indepth: yes
+          plugin_languages_ignored: ""
 
-          # Starred topics
+          # Starred topics (icon mode)
           plugin_topics: yes
           plugin_topics_limit: 20
           plugin_topics_mode: icons
 
-          # Lines of code
+          # Commit habits: streaks, busiest day, commits-per-day
+          plugin_habits: yes
+          plugin_habits_from: 1000
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+
+          # Lines of code added / deleted across all repos
           plugin_lines: yes
+          plugin_lines_sections: base
 
+          # Never abort entire run for a single plugin failure
           plugins_errors_fatal: no
-
