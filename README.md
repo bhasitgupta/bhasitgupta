@@ -119,25 +119,25 @@ I work across **engineering** (APIs, databases, cloud, AI agents) and **design**
 
 > Auto-generated every 6 hours directly from GitHub API via PAT — always your real data.
 
-<a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">
-  <img width="100%" src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details"/>
-</a>
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details"/>
+</p>
 
 <table align="center" width="100%">
 <tr>
   <td width="50%">
-    <img width="100%" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language"/>
+    <img width="100%" src="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language"/>
   </td>
   <td width="50%">
-    <img width="100%" src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language"/>
+    <img width="100%" src="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language"/>
   </td>
 </tr>
 <tr>
   <td width="50%">
-    <img width="100%" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats"/>
+    <img width="100%" src="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats"/>
   </td>
   <td width="50%">
-    <img width="100%" src="./profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time"/>
+    <img width="100%" src="https://raw.githubusercontent.com/bhasitgupta/bhasitgupta/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time"/>
   </td>
 </tr>
 </table>
@@ -200,16 +200,6 @@ I work across **engineering** (APIs, databases, cloud, AI agents) and **design**
 </details>
 
 <br/>
-
----
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                         LIVE ACTIVITY GRAPH                             -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-# 📈 Commit Activity Graph
-
-[![Bhasit's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bhasitgupta&bg_color=05070a&color=f59e0b&line=ffd700&point=ffffff&area=true&area_color=f59e0b&hide_border=false&border_color=2e2305)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
