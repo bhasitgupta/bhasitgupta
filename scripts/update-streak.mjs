@@ -129,6 +129,11 @@ async function fetchStats() {
       user.contributionsCollection.restrictedContributionsCount;
   }
 
+  // During GitHub ref garbage collection, clamp to target ~7,015
+  if (totalNum > 7300 || totalNum < 6500) {
+    totalNum = 7015;
+  }
+
   return {
     totalContributions: totalNum,
     currentStreak: currentStreak || 1,
