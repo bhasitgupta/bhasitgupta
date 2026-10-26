@@ -33,11 +33,21 @@ jobs:
           USERNAME: bhasitgupta
           AUTO_PUSH: false
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update Contribution Streak SVG
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: node scripts/update-streak.mjs
+
       - name: Commit and push cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add profile-summary-card-output/
-          git diff --cached --quiet || git commit -m "chore: auto-sync profile summary cards"
+          git add profile-summary-card-output/ assets/streak.svg
+          git diff --cached --quiet || git commit -m "chore: auto-sync profile summary cards and streak"
           git pull --rebase origin HEAD
           git push origin HEAD
